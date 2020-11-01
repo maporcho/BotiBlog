@@ -1,0 +1,72 @@
+name: boti_blog
+description: O microblog do Boticário.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  #dependency injection
+  get_it: ^5.0.1
+
+  #progress indicator
+  modal_progress_hud: ^0.1.3
+
+  #date formatting
+  intl: ^0.16.1
+
+  #email validation
+  email_validator: "^1.0.5"
+
+  #state management
+  mobx:
+  flutter_mobx:
+
+  #alerting library
+  flash: ^1.3.1
+
+  #preferências do usuário
+  shared_preferences: ^0.5.12+2
+
+  #icons
+  font_awesome_flutter:
+
+  #requisições http
+  http: ^0.12.2
+
+  #carregar imagens por HTTP
+  cached_network_image: ^2.3.3
+
+  #gerador de texto para Flutter
+  lipsum: ^1.0.1
+
+  #dialogs bonitos
+  awesome_dialog: ^1.2.1
+
+  #verificar conexão
+  connectivity: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  mobx_codegen:
+  test:
+  mockito: ^4.1.3
+  random_string: ^2.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "gerar .g",
+        "type": "shell",
+        "command": "flutter packages pub run build_runner build --delete-conflicting-outputs",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }]
+}

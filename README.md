@@ -16,6 +16,8 @@ _e-mail_: teste@teste.com
 
 _senha_: 1234
 
+O código foi desenvolvido em Flutter 1.22.2, com VS Code 1.50.1, e testado em dispositivos Android e simulador iOS.
+
 ## A arquitetura da solução
 
 O app foi construído valendo-se de uma arquitetura em camadas, baseada em interfaces. Dessa forma, as dependências entre classes são expressas em termos de interfaces (na verdade, classes abstratas do Dart), ao invés das implementações concretas. Essas implementações são injetadas em um ponto específico do app (vide main.dart), o que facilita sua substituição sem que seja necessário alterar outras partes do código - e também auxilia muito na elaboração de testes unitários.
